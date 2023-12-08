@@ -49,6 +49,3 @@ def part2
 
   pp cards.to_h.values.map { _1[:count] }.sum
 end
-
-
-part2
