@@ -13,20 +13,18 @@ end.to_h
 
 # part 1
 
-# iter = 0
-# node = 'AAA'
-# loop do
-#   choices = map[node]
-#   node = choices[Object.const_get(directions.next.to_sym)]
-#   iter += 1
-#   break if node == 'ZZZ'
-# end
+iter = 0
+node = 'AAA'
+loop do
+  choices = map[node]
+  node = choices[Object.const_get(directions.next.to_sym)]
+  iter += 1
+  break if node == 'ZZZ'
+end
 
-# puts iter
+puts iter
 
 # Part 2
-
-# OK, so clearly not a bruce-force one
 
 # iter = 0
 # loop do
@@ -42,6 +40,8 @@ end.to_h
 # end
 
 # pp iter
+
+# OK, so clearly not a bruce-force one
 
 # Let's try again
 
